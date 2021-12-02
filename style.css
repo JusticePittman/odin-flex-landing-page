@@ -1,0 +1,61 @@
+:root{
+    --clr-blue-back: #1f2937;
+    --clr-btn: #3882f6;
+    --clr-txt-main: #f9faf8;
+    --clr-txt-para: #e5e7eb;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header,
+footer{
+    background: var(--clr-blue-back);
+}
+
+.btn{
+    background: var(--clr-btn);
+    color: var(--clr-txt-main);
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 0.25em 2em;
+}
+
+
+/* Header */
+
+.logo{
+    color: var(--clr-txt-main);
+    font-size: 24px;
+}
+
+ul{
+    list-style-type: none;
+}
+
+nav a{
+    text-decoration: none;
+}
+
+nav a:hover,
+nav a:focus{
+    color: var(--clr-btn);
+}
+
+h1{
+    color: var(--clr-txt-main);
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.header-text{
+    color: var(--clr-txt-para);
+    font-size: 18px;
+}
+
+header .btn{
+    border: none;
+}
