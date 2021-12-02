@@ -102,12 +102,29 @@ header img{
 
 #info{
     flex-direction: column;
+    align-items: center;
+    gap: 2em;
 }
 
 #info h2{
     color: var(--clr-blue-back);
     font-size: 36px;
     font-weight: bolder;
+    padding-top: 2em;
+}
+
+.card-container{
+    gap: 3em;
+}
+
+.card > *{
+    width: 175px;
+    height: 175px;
+}
+
+.card img{
+    border: 5px solid var(--clr-btn);
+    border-radius: 10px;
 }
 
 
@@ -116,6 +133,8 @@ header img{
 #quote{
     background: var(--clr-txt-para);
     flex-direction: column;
+    padding: 2em 10em;
+    padding-bottom: 5em;
 }
 
 .quote-text{
@@ -128,21 +147,35 @@ header img{
 .name{
     font-size: 24px;
     font-weight: bold;
+    align-self: flex-end;
 }
 
 
 /* Sign up Section */
 
+#signup .flex{
+    background: var(--clr-btn);
+    justify-content: space-evenly;
+    gap: 5em;
+    margin: 5em 10em;
+    padding: 3em;
+    border-radius: 10px;
+}
+
 .signup-main{
-    /* color: var(--clr-txt-main); */
+    color: var(--clr-txt-main);
     font-size: 24px;
     font-weight: bold;
 }
 
-#signup .para-text{
-    color: black; /*get rid of this later */
-}
-
 #signup .btn{
     align-self: center;
+}
+
+
+/* Footer */
+
+footer{
+    justify-content: center;
+    padding: 2em 0;
 }
