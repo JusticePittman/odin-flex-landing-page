@@ -15,6 +15,11 @@ footer{
     background: var(--clr-blue-back);
 }
 
+.para-text{
+    color: var(--clr-txt-para);
+    font-size: 18px;
+}
+
 .btn{
     background: var(--clr-btn);
     color: var(--clr-txt-main);
@@ -51,11 +56,47 @@ h1{
     font-weight: bolder;
 }
 
-.header-text{
-    color: var(--clr-txt-para);
-    font-size: 18px;
-}
-
 header .btn{
     border: none;
+}
+
+
+/* Info Section */
+
+#info h2{
+    color: var(--clr-blue-back);
+    font-size: 36px;
+    font-weight: bolder;
+}
+
+
+/* Quote Section */
+
+#quote{
+    background: var(--clr-txt-para);
+}
+
+.quote-text{
+    color: var(--clr-blue-back);
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+.name{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+
+/* Sign up Section */
+
+.signup-main{
+    /* color: var(--clr-txt-main); */
+    font-size: 24px;
+    font-weight: bold;
+}
+
+#signup .para-text{
+    color: black; /*get rid of this later */
 }
