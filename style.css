@@ -10,6 +10,10 @@
     padding: 0;
 }
 
+.flex{
+    display: flex;
+}
+
 header,
 footer{
     background: var(--clr-blue-back);
@@ -27,10 +31,32 @@ footer{
     font-size: 18px;
     font-weight: bold;
     padding: 0.25em 2em;
+    max-width: max-content;
+    max-height: 100%;
 }
 
 
 /* Header */
+
+header{
+    flex-direction: column;
+}
+
+.header-top{
+    justify-content: space-between;
+    padding-top: 1em;
+}
+
+.header-bottom{
+    padding: 5em 0;
+    gap: 2em;
+}
+
+.header-top,
+.header-bottom{
+    padding-left: 10em;
+    padding-right: 10em;
+}
 
 .logo{
     color: var(--clr-txt-main);
@@ -39,6 +65,8 @@ footer{
 
 ul{
     list-style-type: none;
+    display: flex;
+    gap: 1.5em;
 }
 
 nav a{
@@ -48,6 +76,12 @@ nav a{
 nav a:hover,
 nav a:focus{
     color: var(--clr-btn);
+}
+
+.header-content{
+    flex-direction: column;
+    justify-content: center;
+    gap: 1em;
 }
 
 h1{
@@ -60,8 +94,15 @@ header .btn{
     border: none;
 }
 
+header img{
+    max-height: 350px;
+}
 
 /* Info Section */
+
+#info{
+    flex-direction: column;
+}
 
 #info h2{
     color: var(--clr-blue-back);
@@ -74,6 +115,7 @@ header .btn{
 
 #quote{
     background: var(--clr-txt-para);
+    flex-direction: column;
 }
 
 .quote-text{
@@ -99,4 +141,8 @@ header .btn{
 
 #signup .para-text{
     color: black; /*get rid of this later */
+}
+
+#signup .btn{
+    align-self: center;
 }

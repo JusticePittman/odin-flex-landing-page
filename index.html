@@ -9,7 +9,7 @@
 </head>
 <body>
     <header class="flex">
-        <div class="header-top">
+        <div class="header-top flex">
             <p class="logo">Header Logo</p>
             <nav>
                 <ul>
@@ -19,8 +19,8 @@
                 </ul>
             </nav>
         </div>
-        <div class="header-bottom">
-            <div class="header-content">
+        <div class="header-bottom flex">
+            <div class="header-content flex">
                 <h1>This website is awesome</h1>
                 <p class="para-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsam enim ducimus maiores, ea iusto incidunt qui officia accusantium cupiditate tempore?</p>
                 <button class="btn">Sign up</button>
@@ -30,7 +30,7 @@
     </header>
     <section id="info" class="flex">
         <h2>Some information here.</h2>
-        <div class="card-container">
+        <div class="card-container flex">
             <div class="card">
                 <img src="img/card_info_1.jpg" alt="foggy mountains and narrow road in Iceland">
                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Omnis.</p>
@@ -53,12 +53,14 @@
         <p class="quote-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident similique, blanditiis dolor recusandae ut ab cupiditate quisquam facilis, eos minima in nesciunt quibusdam molestias explicabo aliquid repudiandae magni! Officiis, laudantium.</p>
         <p class="name">-Anonymous User</p>
     </section>
-    <section id="signup" class="flex">
-        <div class="para-signup">
-            <p class="signup-main">Sign up today! Travel tomorrow!</p>
-            <p class="para-text">Our premium travel advisors will help you take the trip of a lifetime!</p>
+    <section id="signup">
+        <div class="flex">
+            <div class="para-signup">
+                <p class="signup-main">Sign up today! Travel tomorrow!</p>
+                <p class="para-text">Our premium travel advisors will help you take the trip of a lifetime!</p>
+            </div>
+            <button class="btn">Sign up</button>
         </div>
-        <button class="btn">Sign up</button>
     </section>
     <footer class="flex">
         <p class="para-text">Copyright &copy; The Odin Project 2021</p>
